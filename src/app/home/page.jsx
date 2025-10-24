@@ -6,6 +6,7 @@ const page = () => {
   return (
     <div>
         <Navbar />
+        <br/><br/><br/>
       <HeroSection />
     </div>
   )
