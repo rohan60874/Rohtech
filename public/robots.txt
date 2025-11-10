@@ -1,0 +1,27 @@
+# robots.txt for RohTech
+# Controls how search engines crawl and index your website
+
+User-agent: *
+Allow: /
+
+# Disallow access to private or internal directories
+Disallow: /admin/
+Disallow: /api/
+Disallow: /server/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://rohtech.com/sitemap.xml
+
+# Optional: control crawl rate
+Crawl-delay: 10
+
+# Prevent indexing of build/config files
+Disallow: /_next/
+Disallow: /__next_static/
+Disallow: /next.config.js
+Disallow: /package.json
+
+# End of robots.txt
